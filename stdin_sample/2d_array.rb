@@ -5,3 +5,6 @@ arr = [
 ]
 
 p arr
+p arr[0]
+p arr[1]
+p arr[2]

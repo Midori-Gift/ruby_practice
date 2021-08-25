@@ -1,5 +1,8 @@
 lines = readlines
+
 lines.each do |words|
-  p words.chomp.split(' ')
+  words.chomp.split(' ').each do |one|
+    p one
+  end
 end
 
