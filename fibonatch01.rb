@@ -1,19 +1,28 @@
+puts "数字3つを入力してください"
 
-a = 1
-b = 3
-c = 7
-d = 0
+int1 = gets
+
+int2 = gets
+
+int3 = gets
+
 n = 0
+int4 = 0
 
-while n < 47 
+# int1 = int1.to_i
+# int1 = int2.to_i
+# int1 = int3.to_i
 
-  a + b + c = d
-  a = b
-  b = c
-  c = d
+
+while n != 47 do
+  int4 = int1.to_i + int2.to_i + int3.to_i
+
+  puts int4
+
+  int1 = int2
+  int2 = int3
+  int3 = int4
 
   n += 1
-
-  puts d
 
 end
